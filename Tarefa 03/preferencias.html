@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Formulário de Inscrição</legend>
+
+            <!-- Áreas de interesse -->
+            <label for="interesse">Áreas de interesse:</label><br>
+            <select id="interesse" name="interesse">
+                <option value="">Selecione</option>
+                <option>Programação</option>
+                <option>Design</option>
+                <option>Inteligência Artificial</option>
+                <option>Redes de Computadores</option>
+            </select>
+
+            <br><br>
+
+            <!-- Nível de conhecimento -->
+            <label>Nível de conhecimento:</label><br>
+
+            <input type="radio" id="iniciante" name="nivel" value="Iniciante">
+            <label for="iniciante">Iniciante</label><br>
+
+            <input type="radio" id="intermediario" name="nivel" value="Intermediário">
+            <label for="intermediario">Intermediário</label><br>
+
+            <input type="radio" id="avancado" name="nivel" value="Avançado">
+            <label for="avancado">Avançado</label>
+
+            <br><br>
+
+            <!-- Nota de interesse -->
+            <label for="nota">Nota de interesse pelo evento (0 a 10):</label><br>
+            <input type="range" id="nota" name="nota" min="0" max="10">
+
+            <br><br>
+
+            <!-- Observações -->
+            <label for="observacoes">Observações:</label><br>
+            <textarea id="observacoes" name="observacoes" rows="5" cols="40" placeholder="Digite suas observações"></textarea>
+
+            <br><br>
+
+            <!-- Aceite dos termos -->
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">
+                Li e aceito os termos de participação.
+            </label>
+
+            <br><br>
+
+            <!-- Botões -->
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
