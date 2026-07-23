@@ -1,0 +1,23 @@
+img{
+ border-radius: 500px;   
+}
+h1{
+    color: blue;
+     font-size:larger
+     font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: blue;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger
+}
+h3{font-family: Arial, Helvetica, sans-serif;}
+
+a{ 
+    text-decoration: none;
+  color: brown;  
+}
+ul{color: rgb(105, 42, 183);}
+body{  text-align: center;background-color: burlywood;   font-weight: 700;}
+section{text-align: center;}
