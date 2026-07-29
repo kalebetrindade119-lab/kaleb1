@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CR Flamengo - Fã-site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="titulo">CR Flamengo</h1>
+      <p class="subtitulo">Uma vez Flamengo, sempre Flamengo</p>
+    </header>
+
+    <nav class="navegacao">
+      <a href="index.html" class="link-nav">Início</a>
+      <a href="detalhes.html" class="link-nav">Detalhes do Clube</a>
+    </nav>
+
+    <main>
+      <section class="secao card">
+        <img
+          src="imagem\images.jpg "
+          width="600"
+          height="300"
+          alt="Torcida do Flamengo no estádio"
+          class="imagem"
+        />
+        <div class="texto">
+          <h2 class="subtitulo">A Nação Rubro-Negra</h2>
+          <p>
+            Fundado em 1895 no Rio de Janeiro, o Clube de Regatas do Flamengo é
+            um dos clubes de futebol mais populares do Brasil, com uma torcida
+            imensa espalhada por todo o país.
+          </p>
+          <p>
+            Suas cores tradicionais, o vermelho e o preto, estão presentes no
+            manto sagrado desde os primeiros anos do futebol do clube, e o
+            Maracanã é um dos principais palcos das grandes partidas do time.
+          </p>
+          <a href="detalhes.html" class="botao">Ver mais detalhes</a>
+        </div>
+      </section>
+
+      <section class="secao">
+        <h2 class="subtitulo">Alguns marcos da história</h2>
+        <ul class="lista">
+          <li>Fundação do clube em 1895</li>
+          <li>Um dos maiores torcedores do Brasil e da América do Sul</li>
+          <li>
+            Diversos títulos estaduais, nacionais e continentais ao longo da
+            história
+          </li>
+          <li>Rivalidades históricas dentro e fora do Rio de Janeiro</li>
+        </ul>
+      </section>
+
+      <section class="secao card">
+        <h2 class="subtitulo">Fale com a Nação</h2>
+        <form
+          class="formulario"
+          action="https://colunadofla.com/2023/08/flamengo-tera-4-dias-de-treinamento-antes-de-jogo-contra-o-internacio"
+          method="post"
+        >
+          <label for="nome">Seu nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
+
+          <label for="mensagem">Sua mensagem:</label>
+          <input
+            type="text"
+            id="mensagem"
+            name="mensagem"
+            placeholder="Deixe seu recado pra torcida"
+          />
+
+          <button type="submit" class="botao">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>&copy; 2026 Fã-site não oficial do CR Flamengo</p>
+    </footer>
+  </body>
+</html>
