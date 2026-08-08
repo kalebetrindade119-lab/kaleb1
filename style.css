@@ -1,0 +1,101 @@
+.caixa{
+display: flex;
+background-color: darkslategrey;
+padding-top:25px ;
+padding-bottom: 25px;
+
+
+
+
+
+
+}
+.card {
+background-color: rgb(133, 142, 142);
+margin-left: 25px;
+border-radius: 25px;
+
+
+
+
+}
+.card img{
+width: 250px;
+height: 300px;
+border-radius: 25px 25px  0px 0px;
+
+
+
+
+
+}
+
+.card h3{
+justify-self: center;
+margin-top: 5px;
+margin-bottom: 5px;
+
+
+
+
+
+}
+
+.cardoff {
+
+display: flex;
+gap: 10px;
+align-items: center;
+
+
+
+
+    
+}
+
+.des{
+background-color: brown;
+color: darkgrey;
+border-radius: 5px;
+padding: 5px;
+margin-left: 10px;
+
+
+
+}
+
+.afe{
+color: rgb(243, 241, 241);
+
+
+}
+
+.Preço{
+display: flex;
+margin-left: 10px;
+gap: 20px;
+align-items: center;
+margin-top: 0px;
+margin-bottom: 5px;
+
+}
+.atual{
+    font-size: 25px;
+
+}
+.passado{
+text-decoration: line-through;
+color: rgb(255, 253, 253);
+
+
+
+}
+
+.Preço p{
+margin-top: 0px;
+margin-bottom: 5px;
+
+
+
+
+}
