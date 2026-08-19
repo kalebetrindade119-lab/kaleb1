@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo - Pixel Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Pixel Store</h1>
+
+        <nav class="pp">
+            <a href="index.html">Início   </a>|
+            <a href="catalogo.html">Catálogo   </a>|
+            <a href="atendimento.html">Atendimento   </a>|
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <h2>Catálogo de produtos</h2>
+
+        <section class="produtos">
+
+            <div class="card">
+                <img src="imgans\images (1).jpg" alt="Mouse Gamer">
+                <h3>Mouse Gamer</h3>
+                <p>Mouse rápido e preciso para jogos.</p>
+                <strong>R$ 120,00</strong>
+            </div>
+
+
+            <div class="card">
+                <img src="imgans\ku.webp" alt="Teclado Mecânico">
+                <h3>Teclado Mecânico</h3>
+                <p>Teclado mecânico para maior precisão.</p>
+                <strong>R$ 180,00</strong>
+            </div>
+
+
+            <div class="card">
+                <img src="imgans\images (2).jpg" alt="Headset">
+                <h3>Headset</h3>
+                <p>Áudio de alta qualidade para seus jogos.</p>
+                <strong>R$ 150,00</strong>
+            </div>
+
+
+            <div class="card">
+                <img src="imgans\images.jpg" alt="Controle">
+                <h3>Controle</h3>
+                <p>Controle confortável para jogar.</p>
+                <strong>R$ 220,00</strong>
+            </div>
+
+        </section>
+
+
+        <section class="compra">
+
+           
+
+            <label for="produto">Escolha o produto:</label>
+
+            <select id="produto">
+
+                <option value="120">Mouse Gamer - R$ 120</option>
+
+                <option value="180">Teclado Mecânico - R$ 180</option>
+
+                <option value="150">Headset - R$ 150</option>
+
+                <option value="220">Controle - R$ 220</option>
+
+            </select>
+
+
+            <label for="quantidade">Quantidade:</label>
+
+            <input type="number" id="quantidade" min="1" value="1">
+
+
+            <button onclick="calcularCompra()">
+                Calcular total
+            </button>
+
+
+            <p id="resultadoCompra"></p>
+
+            <p id="frete"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 Pixel Store - Todos os direitos reservados.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

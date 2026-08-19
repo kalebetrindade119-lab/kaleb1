@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+  <h1>Pixel Store</h1>
+  <nav class="app2">
+
+            <a href="index.html">Início  </a>|
+
+            <a href="catalogo.html">Catálogo   </a>|
+
+            <a href="atendimento.html">Atendimento   </a>|
+
+        </nav>
+    </header>
+<main>
+<main>
+    <h2>Atendimento ao cliente</h2>
+
+    <section class="formulario">
+
+        <fieldset id="areaFormulario">
+
+            <legend>Fale conosco</legend>
+
+            <label for="nomeAtendimento">
+                Nome:
+            </label>
+            <input type="text" id="nomeAtendimento">
+
+            <label for="idade">
+                Idade:
+            </label>
+            <input type="number" id="idade">
+
+            <label for="assunto">
+                Assunto:
+            </label>
+
+            <select id="assunto">
+                <option>Dúvida sobre produto</option>
+                <option>Problema com compra</option>
+                <option>Outros</option>
+            </select>
+
+            <label for="mensagemAtendimento">
+                Mensagem:
+            </label>
+
+            <textarea id="mensagemAtendimento"></textarea>
+
+            <button onclick="enviarMensagem()">
+                Enviar mensagem
+            </button>
+
+            <button onclick="destacarAtendimento()">
+                Destacar atendimento
+            </button>
+
+            <p id="resposta"></p>
+
+            <p id="respostaIdade"></p>
+
+        </fieldset>
+
+    </section>
+</main>
+<footer>
+    <p>© 2026 Pixel Store - Todos os direitos reservados.</p>
+
+</footer>
+
+
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

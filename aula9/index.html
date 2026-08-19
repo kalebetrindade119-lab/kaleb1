@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header >
+    <h1>Pixel Store</h1>
+    <nav >
+        <a href="index.html"> INICIO   </a>|
+        <a href="catalogo.html"> CATALOGO   </a>|
+        <a href="atendimento.html"> ATEDIMENTO   </a>|
+    </nav>
+</header>
+<main>
+        <section class="inicio">
+<div>
+        <h2> Bem-vindo à Pixel Store!</h2>
+
+        <P> 
+            A melhor loja de tecnologia e acessório para gamer.
+        </P>
+        <button onclick="window.location.href='catalogo.html'">
+            ver catálogo
+
+    </button>
+
+</div>
+        <img src="imgans\download.jpg" alt="Loja Pixel Store">
+
+        </section>  
+    
+        <section >
+           <h2 class="ku">Destaques da semana</h2>
+
+<div class="Produtos">
+
+
+            <div class="card" id="">
+                <img src="imgans\images (1).jpg" alt="Mause gamer">
+                <h3> Mause Gamer</h3>
+                <p>
+                    Mause rápido e preciso para seus jogos.
+                </p>
+                <strong id="87">R$ 120,00</strong>
+            </div>
+            
+            <div class="card">
+                <img src="imgans\images (2).jpg" alt=" Headset">
+                <h3>Headset</h3>
+                <p>
+                    Som de alta qualidade para seus jogos
+                </p>
+                <strong id="88" >R$ 220,00</strong>
+            </div>
+
+            <div class="card">
+                <img src="imgans\images.jpg" alt="controle">
+                <h3>Controle Gamer </h3>
+                <p>Controle Gamer confortável para jogar.</p>
+                <strong id="89">R$ 290.00</strong>
+            </div>
+            
+            <div class="card">
+                <img src="imgans/ku.webp" alt="teclado">
+                <h3> Teclado mecanico Gamer</h3>
+                <p>
+                    teclado rápido e preciso para seus jogos.
+                </p>
+                <strong id="90">R$ 319,90</strong>
+            </div>
+
+                 
+  </div>
+        </section>
+
+        <section class=" saudacao">
+
+            <h2> Entre na Pixel Store</h2>
+
+            <input type="text" id="nome" placeholder="Digitte seu nome">
+
+            <Button onclick="entraNaLoja()">
+                Entrar na Loja
+            </Button>
+
+            <P id="mensagem"></P>
+
+        </section>
+
+
+        <section class="promocao">
+
+            <button onclick="ativarPromocao()">
+                Ativar modo promoção
+            </button>
+
+        </section>
+
+        <section>
+
+<button onclick="promo()">promo</button>
+
+        </section>
+
+
+</main>
+
+
+
+
+
+
+<footer>
+    <p>
+        &copy; 2026 pixel store - Todos os direitos reservados
+    </p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
